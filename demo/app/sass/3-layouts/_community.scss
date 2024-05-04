@@ -1,0 +1,23 @@
+.community-part{
+	background-attachment: fixed!important;
+}
+#community-part{
+	@include overlay(rgba(#111, .5));
+}
+
+.join-community{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	border-radius: 5px;
+	
+	a{
+		margin-top: 35px;
+		background: #fff;
+		color: $second-color;
+		border-color: transparent;
+	}
+}

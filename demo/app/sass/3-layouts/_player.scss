@@ -1,0 +1,67 @@
+.game-player{
+	@include overlay(rgba($second-color, .4));
+}
+.player-item{
+	img{
+		@include transition($trans-3);
+	}
+	&:hover{
+		img{
+			transform: scale(1.1) rotate(-5deg);
+		}
+		.player-ability{
+			bottom: 0;
+		}
+	}
+}
+.player-img{
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	position: relative;
+}
+.player-ability{
+	position: absolute;
+	bottom: -100%;
+	left: 0;
+	width: 100%;
+	background: rgba(#000, .7);
+	padding: 15px;
+	@include transition($trans-5);
+	.progress{
+		height: 5px;
+		position: relative;
+		overflow: visible;
+	}
+	.progress-bar{
+		// background: $main-color;
+	}
+}
+.player-item-title{
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+}
+.player-des{
+	background: #282d4b;
+	padding: 30px 15px;
+	border-radius: 0 0 5px 5px;
+}
+.progressbar-width{
+	font-size: 12px;
+	color: #fff;
+	position: absolute;
+	top: -18px;
+	right: 3px;
+}
+
+.progress-wrapper{
+	p{
+		font-size: 12px;
+		color: #fff;
+	}
+	padding: 5px;
+}
+

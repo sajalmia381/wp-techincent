@@ -1,0 +1,18 @@
+.real-battle{
+	// height: 500px;
+	background-attachment: fixed!important;
+	@include overlay(rgba(#000, .3));
+	padding: 150px 0;
+}
+
+.real-battle-caption{
+	p{
+		margin-top: 30px;
+		color: #fff;
+	}
+}
+@include mq-max(575px){
+	.real-battle{
+		padding: 100px 0;
+	}
+}

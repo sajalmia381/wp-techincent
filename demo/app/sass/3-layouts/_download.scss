@@ -1,0 +1,134 @@
+#download-part {
+    @extend .bg-img;
+    padding: 100px 0;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    @include overlay(rgba(#000, .7));
+    .container {
+        position: relative;
+        z-index: 5;
+        color: #fff;
+    }
+    h2 {
+        font-weight: 500;
+    }
+    h3{
+        font-weight: 500;
+        margin-top: 15px;
+    }
+
+}
+
+ .store {
+    margin-top: 30px;
+}
+.store-1 {
+    display: inline-block;
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+    a {
+    display: inline-block;
+    background: $gradient;
+    padding: 15px 20px 15px 0;
+    padding-left: 70px;
+    text-align: left;
+    position: relative;
+    color: $white;
+    border-radius: 3px;
+    font-weight: 600;
+    @include transition($trans-4);
+    
+    i {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 40px;
+    }
+        // position: absolute;
+        // height: 100%;
+        // width: 100%;
+        // z-index: 1;
+        // top: 0;
+        // left: 0;
+
+    &:hover {
+        @include box-shadow($shadow-1);
+        transform: scale(1.1);
+    }
+    }
+}
+    
+@include mq-max(991px) {
+    #download-part{
+        padding: 75px 0 80px;
+        h3 {
+            margin-top: 12px;
+        }
+    }
+    .store-1 {
+        a{
+            padding: 15px 15px 15px 0;
+            padding-left: 65px;
+        }
+        h4{
+            font-size: 19px;
+        }
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+}
+
+@include mq-max(767px) {
+    #download-part{
+        padding: 65px 0 70px;
+        h2{
+            font-size: 26px; 
+        }
+        h3 {
+            margin-top: 7px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .store-1 {
+            &:not(:last-child) {
+                margin-right: 4px;
+            }
+            a {
+                padding: 13px 13px 13px 0;
+                padding-left: 45px;
+                i{
+                    left: 9px;
+                    font-size: 32px;
+                }
+                span{
+                    font-size: 12px;
+                }
+                h4{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@include mq-max(575px) {
+    #download-part{
+        h2{
+            font-size: 24px;
+        }
+         h3 {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+    .store-1 {
+        text-align: center;
+        &:last-child {
+            margin-top: 10px;
+        }
+    }
+}

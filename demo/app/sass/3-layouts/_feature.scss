@@ -1,0 +1,148 @@
+.main-feature {
+    border-radius: 3px;
+    display: none;
+    h2 {
+        font-weight: 700;
+    }
+    &.active{
+        display: inherit;
+    }
+    img{
+        width: 100%;
+    }
+}
+.sub-item {
+    position: relative;
+    padding: 15px 0;
+    padding-left: 120px;
+    background: $white;
+    @include transition($trans-4);
+    cursor: pointer;
+    clear: both;
+    margin-bottom: 15px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    .item-logo {
+        position: absolute;
+        left: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 70px;
+        img{
+            width: 100%;
+        }
+    }
+    h3 {
+        font-weight: 700;
+        color: $dark-3;
+    }
+    p {
+        font-size: 14px;
+        max-width: 308px;
+        line-height: 24px;
+        padding-top: 10px;
+    }
+    &:last-child {
+        margin-bottom: 0;
+    }
+    &:hover,
+    &.active {
+        @include box-shadow(-2px 6px 70px 0px rgba($second-color, .5));
+        positio: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            top: 50%;
+            right: 100%;
+            width: 0;
+            height: 0;
+            border-top: 20px solid transparent;
+            border-right: 30px solid #fff;
+            border-bottom: 20px solid transparent;
+            transform: translateY(-50%);
+            // @include box-shadow(-2px 6px 70px 0px rgba($second-color, .5));
+        }
+    }
+}
+
+// =============== Advance Feature css
+#adv-feature-part {
+    background: $bg-light;
+    padding: 60px 0 80px;
+    overflow: hidden;
+
+}
+.adv-item {
+    padding: 20px 15px;
+    border-radius: 3px;
+    margin-top: 20px;
+    @include transition($trans-4);
+    background: $main-color;
+    color: $white;
+    i {
+        font-size: 35px;
+    }
+    h4 {
+        font-weight: 700;
+    }
+    p {
+        color: $white;
+    }
+    &:hover,
+    &.active {
+        background: $second-color;
+
+    }
+}
+.adv-right {
+    padding: 15px 15px 0;
+    ul li {
+        padding-left: 40px;
+        margin-bottom: 15px;
+        position: relative;
+        font-size: 16px;
+        line-height: 26px;
+        i {
+            position: absolute;
+            left: 5px;
+            top: 2.5px;
+            color: $main-color;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@include mq-max(991px) {
+    .main-feature h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .sub-item .item-logo {
+        width: 60px;
+    }
+    .sub-item {
+        padding-left: 94px;
+    }
+    .sub-item {
+        h3 {
+            font-size: 18px;
+            line-height: 20px;
+        }
+        p {
+            font-size: 12px;
+            line-height: 22px;
+        }
+    }
+}
+@include mq-max(767px) {
+    .sub-item {
+        margin-top: 30px;
+    }
+    // =============== Advance Feature
+    .adv-right ul li {
+        font-size: 15px;
+    }
+}

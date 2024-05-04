@@ -1,0 +1,27 @@
+//$main-color: #333399;
+//$second-color: #3399ff;
+$main-color: #ba78fe;
+$second-color: #ff5a60;
+// $second-color: #1ebea5;
+$white: #fff;
+$dark: #000;
+$bg-white: #ffffff;
+$bg-light: rgba($dark, .04);
+$dark-3: #333333;
+
+// gradient color
+$gradient: linear-gradient(-90deg, rgba($second-color, 1), rgba($main-color, 1));
+// transition time
+$trans-3: all .3s linear;
+$trans-4: all .4s linear;
+$trans-5: all .5s linear;
+
+// font family
+$family-1: 'Montserrat',
+sans-serif;
+// shadow
+$shadow-1: 0 16px 32px 0 rgba(62, 57, 107, 0.28),
+0 0 0 transparent;
+
+$shadow-2: 0 0px 5px 0 rgba(62, 57, 107, 0.28),
+0 0 0 transparent;

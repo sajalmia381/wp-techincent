@@ -1,0 +1,146 @@
+.banner-4-item{
+	@include overlay(rgba(#111, .5));
+	height: 100vh;
+	position: relative;
+}
+.item-caption-4{
+	position: absolute;
+	top: 53%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	// padding: 50px;
+	// width: max-content;
+	// width: -webkit-max-content;
+	// width: -moz-max-content;
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+	h1{
+		text-transform: uppercase;
+		font-size: 50px;
+	}
+	h2{
+		padding-top: 20px;
+	}
+	a{
+		margin-top: 30px;
+		background: #fff;
+		color: #333;
+	}
+}
+.banner-4-A{
+	.owl-prev,
+    .owl-next{
+    	position: absolute;
+    	top: 54%;
+    	transform: translateY(-50%);
+		i {
+		    font-size: 80px;
+		    color: #fff;
+		    @include transition($trans-3);
+		    opacity: .4;
+    	}
+    	&:hover{
+    		i{
+    			opacity: 1;
+    		}
+    	}
+    }
+    .owl-prev{
+    	left: 30px;
+    }
+    .owl-next{
+    	right: 30px;
+    }
+    .owl-dots{
+    	position: absolute;
+    	bottom: 30px;
+    	left: 50%;
+    	transform: translateX(-50%);
+    }
+    .owl-dot {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 5px;
+        border: 1px solid $second-color;
+        &.active {
+            background: $second-color;
+        }
+    }
+}
+
+@include mq-max(991px){
+	.item-caption-4{
+		h1{
+			font-size: 40px;
+		}
+		h2{
+			font-size: 28px;
+		}
+	}
+	.banner-4-A{
+		.owl-prev{
+			left: 15px;
+		}
+		.owl-next{
+			right: 15px;
+		}
+	}
+}
+
+@include mq-max(767px){
+	.item-caption-4{
+		h1{
+			font-size: 32px;
+		}
+		h2{
+			font-size: 22px;
+		}
+		a{
+			font-size: 13px;
+			padding: 10px 20px;
+		}
+	}
+	.banner-4-A{
+		.owl-prev,
+		.owl-next{
+			font-size: 60px
+		}
+		.owl-prev{
+			left: 0px;
+		}
+		.owl-next{
+			right: 0px;
+		}
+	}
+}
+
+@include mq-max(767px){
+	.item-caption-4{
+		h1{
+			font-size: 28px;
+		}
+		h2{
+			font-size: 19px;
+    		line-height: 28px;
+		}
+		a{
+			margin-top: 20px;
+		}
+	}
+	.banner-4-A{
+		.owl-prev,
+		.owl-next{
+			display: none;
+		}
+		.owl-dots{
+			bottom: 20px;
+		}
+		.owl-dot{
+			height: 12px;
+    		width: 12px;
+		}
+	}
+}

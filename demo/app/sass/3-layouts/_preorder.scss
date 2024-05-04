@@ -1,0 +1,63 @@
+.preorder-part{
+	padding: 220px 0;
+	@include overlay(rgba($second-color, .1));
+}
+.preorder-caption{
+	h2{
+		font-size: 50px;
+		letter-spacing: .35px;
+	}
+	h3{
+		font-size: 25px;
+		padding: 25px 0 35px;
+		@extend .font-500;
+	}
+	a{
+		background: #fff;
+		color: #111;
+		padding: 15px 30px;
+		&:hover{
+			transform: scale(1.05);
+		}
+	}
+}
+
+@include mq-max(991px){
+	.preorder-caption {
+    	h2{
+    		font-size: 40px;
+    	}
+    	h3{
+    		font-size: 21px;
+    		padding: 23px 0 29px;
+    	}
+    	a{
+    		padding: 13px 23px;
+    	}
+	}
+}
+
+@include mq-max(767px) {
+    .preorder-part {
+        padding: 160px 0;
+    }
+    .preorder-caption {
+        h2 {
+            font-size: 35px;
+        }
+        h3 {
+            font-size: 17px;
+            padding: 16px 0 21px;
+        }
+        a {
+            padding: 10px 20px;
+            font-size: 13px;
+        }
+    }
+}
+
+@include mq-max(575px) {
+    .preorder-part {
+        padding: 120px 0;
+    }
+}

@@ -1,0 +1,12 @@
+.bg-img{
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+}
+
+.bg-img-overlay{
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    @include overlay-opacity($gradient, .9);
+}

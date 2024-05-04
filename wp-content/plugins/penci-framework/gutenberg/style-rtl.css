@@ -1,0 +1,310 @@
+.rtl p.has-drop-cap:not(:focus)::first-letter {
+	margin: 0 0 0 20px;
+	float: right;
+}
+.rtl .wp-block .wp-block-latest-posts.is-grid,
+.rtl .wp-block .wp-block-latest-posts {
+	padding-right: 36px;
+	padding-left: 20px;
+}
+.rtl .editor-styles-wrapper .wp-block ol.wp-block-latest-comments {
+	padding-left: 0;
+	padding-right: 36px;
+}
+
+.rtl .wp-block .penci-tpadding-1 {
+	padding-left: 5%;
+	padding-right: 0;
+}
+.rtl .wp-block .penci-tpadding-2 {
+	padding-left: 0;
+	padding-right: 5%;
+}
+.rtl .wp-block .penci-tpadding-4 {
+	padding-left: 10%;
+	padding-right: 5%;
+}
+.rtl .wp-block .penci-tpadding-5 {
+	padding-left: 5%;
+	padding-right: 10%;
+}
+.rtl .wp-block .pencisc-button i{
+	margin-left: 5px;
+	margin-right: 0;
+}
+.rtl .wp-block .pencisc-button.pencisc-icon-right i {
+	margin-left: 0;
+	margin-right: 10px;
+}
+.rtl .wp-block .pencisc-button-margin-right {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.rtl .wp-block .pencisc-align-left {
+	float: right;
+}
+
+.rtl .wp-block .pencisc-align-right {
+	float: left;
+}
+
+/** Recipe **/
+.rtl .wp-block  .wrapper-penci-recipe ul li,
+.rtl .wp-block  .wrapper-penci-recipe ol li {
+	margin-left: 0;
+}
+.rtl .wp-block  .entry-content .penci-recipe-heading h2 {
+	float:right;
+}
+.rtl .wp-block  .penci-recipe-heading a.penci-recipe-print {
+	float: left;
+}
+.rtl .wp-block  .penci-recipe-heading .penci-recipe-meta span {
+	margin-right: 0;
+	margin-left: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+.rtl .wp-block  .penci-recipe-heading .penci-recipe-meta span.servings {
+	margin-left: 0;
+}
+.rtl .wp-block  .penci-recipe-heading .penci-recipe-meta span i{
+	margin-right: 0;
+	margin-left: 4px;
+}
+.rtl .wp-block .penci-recipe .penci-recipe-heading h2{
+	float: right;
+}
+.rtl .wp-block  .penci-recipe-thumb {
+	float:right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+.rtl .wp-block  h3.recipe-ingredient-heading {
+	margin-left: 0;
+	margin-right: -18px;
+}
+.rtl .wp-block  .wrapper-penci-recipe .penci-rate-text {
+	text-align: right;
+	float: right;
+}
+.rtl .wp-block  .wrapper-penci-recipe .penci-recipe-ingredients ul{
+	padding-left: 0;
+	padding-right: 18px;
+}
+.rtl .wp-block .wrapper-penci-recipe .penci-recipe-ingredients ul li{
+	margin-right: 0;
+}
+.rtl .wp-block .wrapper-penci-recipe .penci-recipe-ingredients ul li:last-child {
+	margin: 0;
+	padding: 0;
+}
+.rtl .wp-block .wrapper-penci-recipe .penci-recipe-ingredients ul li:before {
+	left: 0;
+	right: -18px;
+}
+.rtl .wp-block .wrapper-penci-recipe .penci-recipe-ingredients.penci-recipe-ingre-visual ul{
+	padding-left: 0;
+	padding-right: 15px;
+}
+.rtl .wp-block .wrapper-penci-recipe .penci-recipe-ingredients.penci-recipe-ingre-visual ul li{
+	margin-left: 0;
+	margin-right: 0;
+}
+.rtl .wp-block .wrapper-penci-recipe .penci-recipe-ingredients.penci-recipe-ingre-visual ul li:last-child {
+	margin: 0;
+	padding: 0;
+}
+.rtl .wp-block .wrapper-penci-recipe .penci-recipe-method ul,
+.rtl .wp-block .wrapper-penci-recipe .penci-recipe-method ol {
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+.rtl .wp-block .wrapper-penci-recipe .penci-recipe-method ul li,
+.rtl .wp-block .wrapper-penci-recipe .penci-recipe-method ol li {
+	margin-right: 0;
+}
+.rtl .wp-block .nutrition-lable,
+.rtl .wp-block .penci-nutrition > .nutrition-item:after{
+	margin-left: 5px;
+	margin-right: 0;
+}
+.rtl .wp-block .nutrition-lable {
+	margin-right: 5px;
+}
+
+.rtl .wp-block .penci-recipe-index-wrap h4.recipe-index-heading > span {
+	padding-right: 0;
+	padding-left: 15px;
+}
+.rtl .wp-block .penci-recipe-index-wrap h4.recipe-index-heading .penci-index-more-link .fa-angle-double-right:before{
+	content: "\f100";
+}
+.rtl .wp-block .penci-recipe-index-wrap h4.recipe-index-heading .penci-index-more-link {
+	padding-left: 0;
+	padding-right: 15px;
+	right: auto;
+	left: 0;
+}
+/** Review **/
+.penci-review-metas .penci-review-meta i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.penci-review-metas a.penci-review-btnbuy.button {
+	float: right;
+}
+.rtl .wp-block .penci-review-thumb {
+	float: right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+.rtl .wp-block .wrapper-penci-review .penci-review ul.penci-review-number li {
+	margin-right: 0;
+}
+.rtl .wp-block .penci-review-score{
+	float: left;
+}
+.rtl .wp-block .penci-review-score .fa {
+	margin-right: 0;
+	margin-left: 3px;
+}
+.rtl .wp-block .penci-review-score .fa:last-child {
+	margin-left: 0;
+}
+.rtl .wp-block .penci-review-stuff,
+.rtl .wp-block .penci-review-stuff .penci-review-good,
+.rtl .wp-block .penci-review-average {
+	float: right;
+}
+.rtl .wp-block .penci-review .penci-review-good ul li{
+	padding-right: 18px;
+	padding-left: 0;
+	margin-right: 0;
+}
+.rtl .wp-block .penci-chart-text,
+.rtl .wp-block .penci-review .penci-review-good ul li:before{
+	left: auto;
+	right: 0;
+}
+
+.rtl .wp-block .penci-review-metas .penci-review-meta i{
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+/** inline-related-posts **/
+.rtl .wp-block .penci-inline-related-posts li {
+	margin-left: 0;
+	margin-right: 35px;
+}
+.rtl .wp-block .penci-inline-related-posts.penci-irp-align-left {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+.rtl .wp-block .penci-inline-related-posts.penci-irp-align-right {
+	margin-left: 0;
+	margin-right: 20px;
+	float: left;
+}
+.rtl .wp-block .penci-inline-related-posts.penci-irp-type-grid .penci-image-holder {
+	margin-right: 0;
+	margin-left: 10px;
+	padding-left:10px;
+	padding-right: 0;
+}
+.rtl .wp-block .penci-inline-related-posts.penci-irp-type-grid .penci_mobj-image-right .penci-image-holder {
+	margin-right: 10px;
+	margin-left: 0;
+}
+.rtl .wp-block .penci-inline-related-posts.penci-irp-type-grid .penci-post-item {
+	margin-right: 0;
+	float: right;
+}
+.rtl .wp-block .penci-inline-related-posts.penci-irp-type-grid .penci-irp-align-none:not( .penci-irp-one-item ) {
+	float: right;
+	padding-right: 10px;
+	padding-left: 0;
+}
+.rtl .wp-block .penci-inline-related-posts.penci-irp-type-grid .penci-irp-align-none:not( .penci-irp-one-item ):nth-child( 2n + 1 ) {
+	padding-left: 10px;
+	padding-right: 0;
+}
+.rtl .wp-block .penci-inline-related-posts.penci-irp-type-grid .penci_mobj__img{
+	margin-right: 0;
+	margin-left: 20px;
+}
+.rtl .wp-block .penci-inline-related-posts .penci_post-meta i {
+	margin-right: 0;
+	margin-left: 3px;
+}
+.rtl .wp-block .penci-inline-related-posts .penci_post-meta .entry-meta-item:not( :first-child ) {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.rtl .wp-block blockquote.alignleft,
+.rtl .wp-block blockquote.style-2.alignleft,
+.rtl .wp-block blockquote.style-3.alignleft{
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+.rtl .wp-block blockquote.alignright,
+.rtl .wp-block blockquote.style-2.alignright,
+.rtl .wp-block blockquote.style-3.alignright {
+	margin-left: 0;
+	margin-right: 20px;
+}
+.rtl .wp-block blockquote.style-2 {
+	padding-right: 46px;
+	padding-left: 0;
+}
+.rtl .wp-block blockquote.style-2:before {
+	left: auto;
+	right: 0;
+	margin-right: 0;
+}
+.rtl .wp-block blockquote.style-2 .author span {
+	padding-left: 10px;
+	padding-right: 0;
+}
+.rtl .wp-block blockquote.style-2.align-right {
+	float: left;
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+.rtl .wp-block blockquote.style-2:before{
+	content: '”' !important;
+}
+.rtl .wp-block blockquote.style-2, blockquote.style-2 p,
+.rtl .wp-block blockquote.style-2 cite, blockquote.style-2 .author{
+	text-align: right;
+}
+
+.rtl .wp-block blockquote.style-3,
+.rtl .wp-block blockquote.style-3 p,
+.rtl .wp-block blockquote.style-3 cite,
+.rtl .wp-block blockquote.style-3 .author {
+	text-align: right;
+}
+.rtl .wp-block blockquote.style-3 {
+	padding-right: 24px;
+	padding-left: 15px;
+}
+.rtl .wp-block blockquote.style-3:before {
+	left:auto;
+	right: 0;
+	margin-right: 0;
+}
+.rtl .wp-block blockquote.style-3 .author span {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.rtl .wp-block blockquote.style-3 .author span:after {
+	left: auto;
+	right: 100%;
+}

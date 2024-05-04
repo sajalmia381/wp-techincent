@@ -1,0 +1,158 @@
+.compose-mode .vc_control-btn-prepend,
+.compose-mode .vc_control-btn-layout {
+	display: none !important;
+}
+
+.compose-mode .vc_penci_container {
+	padding-top: 32px;
+	margin-top: 0 !important;
+}
+
+.vc_penci_column .vc_controls-column > div > .vc_active.vc_parent .vc_advanced {
+	width: 90px;
+}
+
+.penci-pb-row .vc_empty-element {
+	min-height: 100px;
+}
+
+.compose-mode .vc_element.vc_hold-hover > .penci-container-row > .vc_element:before,
+.compose-mode .vc_element.vc_hover > .penci-container-row > .vc_element:before,
+.compose-mode .vc_element:hover > .penci-container-row > .vc_element:before,
+.view-mode .vc_element.vc_hold-hover > .penci-container-row > .vc_element:before,
+.view-mode .vc_element.vc_hover > .penci-container-row > .vc_element:before,
+.view-mode .vc_element:hover > .penci-container-row > .vc_element:before {
+	content: '';
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	outline: #EBEBEB dashed 1px;
+	outline: rgba(125, 125, 125, .4) dashed 1px;
+}
+
+.penci-container-fluid .penci-container__content .vc_penci_column,
+.penci-container .penci-container__content .vc_penci_column {
+	padding: 0;
+}
+
+.penci-two-column .penci-container__content .vc_penci_column_inner {
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+
+@media screen and (min-width: 768px) {
+	.penci-two-column .penci-container__content .vc_penci_column_inner {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1110px){
+	.penci_dis_padding_bw .penci-container-width-1080.penci-vc_sidebar-left .penci-content-main,
+	.penci_dis_padding_bw .penci-container-width-1080.penci-vc_sidebar-right .penci-content-main {
+		max-width: 100%;
+	}
+}
+
+
+@media screen and (min-width: 1240px) {
+	.penci-container-fluid .penci-content-main,
+	.penci-container .penci-content-main {
+		max-width: 100%;
+	}
+
+	.penci-vc_two-sidebar .vc_penci_column.vc_col-sm-6 {
+		width: 100%;
+		max-width: 760px;
+	}
+
+	.penci-vc_two-sidebar .vc_penci_column.penci_col-order-3 .widget-area {
+		order: 3;
+		float: right;
+		padding-left: 20px;
+	}
+
+	.penci-vc_two-sidebar .vc_penci_column.penci_col-order-1 .widget-area {
+		order: 1;
+		padding-right: 20px;
+	}
+
+	.penci-vc_sidebar-right .vc_penci_column.vc_col-sm-4,
+	.penci-vc_sidebar-left .vc_penci_column.vc_col-sm-4,
+	.penci-vc_two-sidebar .vc_penci_column.vc_col-sm-3 {
+		width: 320px;
+	}
+
+	.penci-vc_sidebar-right .vc_penci_column.vc_col-sm-8,
+	.penci-vc_sidebar-left .vc_penci_column.vc_col-sm-8 {
+		width: 100%;
+	}
+
+	.penci-container__content.row .vc_col-sm-6.penci_col-order-1 {
+		padding-right: 10px;
+	}
+
+	.penci-container__content.row .vc_col-sm-6.penci_col-order-2 {
+		padding-left: 10px;
+	}
+
+	.penci-container__content.row .vc_penci_column.vc_col-sm-3,
+	.penci-container__content.row .vc_penci_column.vc_col-sm-4 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.penci-container__content.row .vc_penci_column.vc_col-sm-3 .widget-area,
+	.penci-container__content.row .vc_penci_column.vc_col-sm-4 .widget-area {
+		width: 100%;
+	}
+
+	.penci-vc_content-2sidebar .vc_penci_column.penci_col-order-2 .widget-area {
+		padding-left: 20px;
+	}
+
+	.penci-vc_2sidebar-content .vc_penci_column.penci_col-order-2 .widget-area {
+		padding-right: 20px;
+	}
+
+}
+
+@media screen and (min-width: 960px) {
+	.penci-con_innner-sidebar-right .vc_penci_column.penci_col-order-1 .widget-area,
+	.penci-vc_sidebar-left .penci-con_innner-sidebar-right .vc_penci_column.penci_col-order-1 .widget-area,
+	.penci-vc_sidebar-right .vc_penci_column.penci_col-order-1 .widget-area {
+		padding-left: 0;
+	}
+
+	.penci-container-width-1400 .penci-con_innner-sidebar-right .vc_penci_column_inner:nth-child( 1 ),
+	.penci-container-width-1400 .penci-con_innner-sidebar-left .vc_penci_column_inner:nth-child( 2 ) {
+		max-width: 760px;
+		width: 100%;
+	}
+
+	.penci-container-width-1400 .penci-con_innner-sidebar-right .vc_penci_column_inner:nth-child( 2 ) {
+		order: 2;
+	}
+
+	.penci-container-width-1400 .penci-con_innner-sidebar-left .vc_penci_column_inner:nth-child( 1 ) {
+		order: 1;
+	}
+
+	.penci-container-width-1400 .penci-con_innner-sidebar-left .vc_penci_column_inner:nth-child( 2 ) {
+		order: 2;
+	}
+
+	.penci-con_innner-sidebar-right .vc_penci_column_inner:nth-child( 2 ),
+	.penci-vc_sidebar-left .penci-con_innner-sidebar-right .vc_penci_column_inner:nth-child( 2 ),
+	.penci-vc_sidebar-right .vc_penci_column_inner:nth-child( 2 ) {
+		padding-left: 20px;
+		padding-right: 0;
+	}
+}
+

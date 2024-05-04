@@ -1,0 +1,25 @@
+#work-part{
+	background: #eff9f9;
+	// background: #333;
+}
+.work-item{
+	text-align: center;
+	img{
+		width: 100%;
+		margin-bottom: 15px;
+		@include transition($trans-4);
+		&:hover{
+			transform: translateY(-20px);
+		}
+	}
+	span{
+		@include transition($trans-4);
+		color: #111;
+		font-weight: 700;
+		font-size: 14px;
+		opacity: .5;
+		&:hover{
+			opacity: 1;
+		}
+	}
+}

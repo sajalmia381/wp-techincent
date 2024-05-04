@@ -1,0 +1,41 @@
+#about-part {
+    .section-head {
+        margin-bottom: 30px;
+        h3 {
+            max-width: 462px;
+            line-height: 34px;
+            margin: auto;
+        }
+    }
+    position: relative;
+}
+.about-left {
+    img {
+        width: 100%;
+    }
+}
+.about-right {
+    p {
+        margin-top: 25px;
+    }
+    ul li {
+        padding-left: 40px;
+        margin-bottom: 15px;
+        position: relative;
+        font-size: 16px;
+
+        line-height: 26px;
+        i {
+            position: absolute;
+            left: 5px;
+            top: 2.5px;
+            color: $main-color;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    @include mq-max(991px) {
+        margin-top: 30px;
+    }
+}

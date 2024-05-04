@@ -1,0 +1,218 @@
+/* 
+Template Name  : Tech Incent.
+Version        : 1.0.0.0
+Author         : Tech Incent.
+Author url     : www.techincent.com
+*/
+
+/* 
+						Table OF Content
+-------------------------------------------------------------------------------------------------------
+0. 0-Helper
+	0.1. 0-helpers-dir - // Folder Directory Not Visiable in css file).
+    0.2. variabales - // Included colors, font-family, shadows (Not Visiable in css files).
+    0.3. Mixins - // (Not Visiable in css files).
+
+1. 1-Base
+    1.   1-base-dir - // Folder Directory Not Visiable in css file).
+    1.1. reset - // Tags Reset.
+    1.2. space
+    1.3. typoghaphy
+    1.4. flaticon
+
+2. 2-Component
+    2. 	 2-component-dir - // Folder Directory (Not Visiable in css file).
+    2.1. animation
+    2.2. buttons
+    2.3. list
+    2.4. sction
+    2.5. img
+    2.6. global
+
+    nav and footer wil be last on 2-component
+	2.7 navigation - // Main Navbar
+
+3. 3-layout
+    3.1. banner part
+    3.2. about part
+    3.3. service part
+	3.4. feature part
+	3.5. gallery part
+	3.6. video part
+	3.7. achivment part
+	3.8. testimonial part
+	3.9. price part
+	3.10. faq part
+	3.11. downlaod part
+	3.12. download-2 aprt
+	3.13. blog part
+	3.14. footer part
+	3.15. breadcrumb part
+	3.16. preloader part
+
+4. pages
+	4.1. blog page
+	4.2. blog single page
+*/
+
+/* Font */
+
+@import "https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900";
+
+//// Helpers
+@import "0-helpers/_0-helpers-dir";
+
+/* Base */
+@import "1-base/_1-base-dir";
+
+/* Theme Component */
+@import "2-components/_2-components-dir";
+
+/* ======================================= Template Layout ========================================== */
+
+/* =======================================
+			1.1. banner part 
+========================================== */
+@import "3-layouts/_banner";
+
+/* =======================================
+			1.1.1 banner 2 part 
+========================================== */
+@import "3-layouts/_banner-2";
+
+/* =======================================
+			1.1.2 banner 3 part 
+========================================== */
+@import "3-layouts/_banner-3";
+
+/* =======================================
+			1.1.2 banner 4 part 
+========================================== */
+@import "3-layouts/_banner-4";
+
+/* =======================================
+			1.2. about part 
+========================================== */
+@import "3-layouts/_about";
+
+/* =======================================
+			1.2.1 about part 
+========================================== */
+@import "3-layouts/_about-2";
+
+/* =======================================
+			1.3. service part 
+========================================== */
+@import "3-layouts/_service";
+
+/* =======================================
+			1.4. feature part 
+========================================== */
+@import "3-layouts/_feature";
+
+/* =======================================
+			1.4.1. feature 2 part 
+========================================== */
+@import "3-layouts/_feature-2";
+
+
+/* =======================================
+			1.5. gallery part 
+========================================== */
+@import "3-layouts/_gallery";
+
+/* =======================================
+			1.6. video part 
+========================================== */
+@import "3-layouts/_video";
+
+/* =======================================
+			1.7. achivment part 
+========================================== */
+@import "3-layouts/_achivement";
+
+/* =======================================
+			1.8. testimonial part 
+========================================== */
+@import "3-layouts/_testimonial";
+
+/* =======================================
+			1.9. price part 
+========================================== */
+@import "3-layouts/_price";
+
+/* =======================================
+			1.10. faq part 
+========================================== */
+@import "3-layouts/_faq";
+
+/* =======================================
+			1.11. dowmload part 
+========================================== */
+@import "3-layouts/_download";
+
+/* =======================================
+			1.12. downlaod-2 part 
+========================================== */
+@import "3-layouts/_download-2";
+
+/* =======================================
+			1.12.1 downlaod-2 part 
+========================================== */
+@import "3-layouts/_preorder";
+
+/* =======================================
+			1.13. blog part 
+========================================== */
+@import "3-layouts/_blog";
+
+/* =======================================
+			1.14. footer part 
+========================================== */
+@import "3-layouts/_footer";
+
+/* =======================================
+			1.15. breadcrumb part 
+========================================== */
+@import "3-layouts/_breadcrumb";
+
+/* =======================================
+			1.16. preloader part 
+========================================== */
+@import "3-layouts/_preloader";
+
+/* =======================================
+			1.17. Partner aprt
+========================================== */
+@import "3-layouts/_partner";
+
+/* =======================================
+			1.18. Work aprt
+========================================== */
+@import "3-layouts/_work";
+
+/* =======================================
+			1.19. Team aprt
+========================================== */
+@import "3-layouts/_player";
+
+/* =======================================
+			1.19. community aprt
+========================================== */
+@import "3-layouts/_community";
+
+/* =======================================
+			1.19. community aprt
+========================================== */
+@import "3-layouts/_real-battle";
+
+/* Pages */
+/* =======================================
+			4.1. blog page 
+========================================== */
+@import "4-pages/blog-single-page";
+
+/* =======================================
+			 4.1. blog single page
+========================================== */
+@import "4-pages/blog-page";

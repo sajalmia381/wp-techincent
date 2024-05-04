@@ -1,0 +1,171 @@
+#download-2-part {
+    background: #f1f5f9;
+}
+
+.phone-device{
+    padding: 0 23px;
+    img{
+        width: 100%;
+        @include transition($trans-4);
+        border-radius: 18px;
+    }
+    .btn-d{
+        font-size: 13px;
+        line-height: 30px;
+        height: 30px;
+        background: #fff;
+        width: 100px;
+        displaY: inline-block;
+        margin-top: 20px;
+        border-radius: 20px;
+        color: #333;
+        font-weight: 700;
+        @include transition($trans-4);
+        @include box-shadow($shadow-2);
+        &:hover{
+            background: $main-color;
+            color: #fff;
+        }
+    }
+    &:hover{
+        img{
+            transform: scale(1.1);
+        }
+    }
+}
+.phone-other-download{
+    max-width: 380px;
+    margin: 0 auto;
+    margin-top: 50px;
+    line-height: 24px;
+    a{
+        color: $main-color;
+    }
+}
+.device-download {
+    h5 {
+        font-weight: 500;
+        font-size: 13px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    h3 {
+        font-weight: 500;
+        letter-spacing: 1.2px;
+        margin-top: 5px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+    .device-img {
+        width: 475px;
+        margin: 0 auto;
+        img {
+            width: 100%;
+        }
+    }
+    p {
+        font-size: 13px;
+        a {
+            font-size: 13px;
+            font-weight: 600;
+            color: #333;
+            position: relative;
+            display: inline-block;
+            @include transition($trans-4);
+            &:after{
+                position: absolute;
+                content: '';
+                bottom: 0;
+                left: 0;
+                background: #333;
+                width: 100%;
+                height: 1px;
+                @include transition($trans-4);
+            }
+            &:hover{
+                color: $second-color;
+                &:after{
+                    background: $second-color;
+                }
+            }
+        }
+    }
+    .download-btn {
+        padding-top: 10px;
+    }
+    .btn-1 {
+        border-color: transparent;
+        background: $main-color;
+        text-transform: uppercase;
+        font-size: 13px;
+        &:hover {
+            border-color: $main-color;
+            background: #fff;
+        }
+    }
+    .other {
+        padding-top: 20px;
+        h5 {
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+        a {
+            font-size: 13px;
+            color: #333;
+            font-weight: 600;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 2px;
+            &:after{
+                position: absolute;
+                content: '';
+                bottom: 0;
+                left: 0;
+                background: #333;
+                width: 100%;
+                height: 1px;
+            }
+            &:hover {
+                color: $main-color;
+                &:after{
+                    background: $main-color;
+                }
+            }
+        }
+    }
+}
+
+@include mq(768px, 991px){
+    .phone-device {
+        padding: 0px 3px;
+    }
+    .device-download .device-img{
+        width: 262px;
+    }
+}
+@include mq-max(757px){
+    #download-2-part{
+        padding: 60px 0;
+    }
+    .device-download h3{
+        margin-bottom: 20px;
+    }
+    .phone-other-download{
+        margin-top: 40px;
+    }
+    .device-download .other {
+        padding-top: 15px;
+    }
+}
+
+@include mq-max(575px){
+    
+    .phone-device {
+        width: 30%;
+        padding: 0px;
+        margin: 0 5px;
+    }
+    .device-download .device-img {
+        width: 270px;
+    }
+}

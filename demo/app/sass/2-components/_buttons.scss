@@ -1,0 +1,68 @@
+.btn-1 {
+    font-size: 14px;
+    background: $gradient;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: $white;
+    font-weight: 700;
+    border: 1px solid transparent;
+    display: inline-block;
+    @include transition($trans-4);
+    cursor: pointer;
+    display: inline-block;
+    &:hover {
+        background: transparent;
+        color: $main-color;
+        border-color: $main-color;
+    }
+}
+
+.btn-2 {
+    font-size: 14px;
+    border: 1px solid;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    @include transition($trans-3);
+    display: inline-block;
+    // @include box-shadow(0px 10px 20px rgba($second-color, 0.4));
+    &:hover{
+        // @include box-shadow(0px 10px 20px rgba($white, 0.4));
+        background: #fff;
+        color: $second-color;
+        border-color: #fff;
+    }
+}
+
+.btn-3 {
+    display: inline-block;
+    font-size: 16px;
+    color: $main-color;
+    @include transition($trans-3);
+    font-weight: 700;
+    i {
+        display: none;
+    }
+    &:hover {
+        color: $dark-3;
+        i {
+            display: inline-block;
+        }
+    }
+}
+
+.dl-btn{
+    display: inline-block;
+    @include box-shadow(0px 10px 20px rgba($dark, 0.4));
+    background: $second-color;
+    border: none;
+    letter-spacing: .3px;
+    &:hover{
+        @include box-shadow(0px 10px 20px rgba($dark, 0.4));
+        background: #fff;
+        color: $second-color;
+    }
+}

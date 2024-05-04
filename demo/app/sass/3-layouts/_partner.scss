@@ -1,0 +1,33 @@
+#partner-part{
+	@include overlay(rgba(#303030, .5));
+	padding: 50px;
+}
+.partner-item{
+	background: rgba(#f9f9f9, .3);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	margin: 0 15px;
+}
+
+/* Partner 2 Part */
+#partner-2-part{
+	&:hover{
+		.partner-2-item{
+			opacity: .5;
+			&:hover{
+				opacity: 1
+			}
+		}
+	}
+}
+.partner-2-item{
+	padding: 0 15px;
+	width: 16%;
+	@include transition($trans-3);
+	img{
+		width: 100%;
+	}
+	
+}

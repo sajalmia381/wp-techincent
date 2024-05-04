@@ -1,0 +1,169 @@
+#video-part {
+    margin-top: -80px;
+    padding-top: 80px;
+    .section-head {
+        margin-bottom: 20px;
+        h3 {
+            max-width: 500px;
+            margin: auto;
+            line-height: 34px;
+        }
+    }
+}
+
+.presentation {
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 230px 0;
+    h2 {
+        margin-top: 35px;
+    }
+}
+
+
+// videos icon with wave
+.icon-wave {
+    position: relative;
+    .wave {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        -webkit-animation: wave infinite 5s;
+        animation: wave infinite 5s;
+        height: 50px;
+        width: 50px;
+        background: rgba($white, .2);
+    }
+    .wave1 {
+        animation-delay: 1s
+    }
+    .wave2 {
+        animation-delay: 2.5s
+    }
+    .wave3 {
+        animation-delay: 4s
+    }
+}
+
+.pre-video {
+    color: $white;
+    a {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        background: $white;
+        color: $second-color;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 20px;
+        position: relative;
+        z-index: 5;
+        i {
+            margin-left: 5px;
+        }
+    }
+    span {
+        font-size: 25px;
+        font-weight: 700;
+    }
+}
+
+/* Game presentation */
+/* Tournament Battle Video */
+#video-2-part{
+    @include overlay(rgba(#000, .2));
+}
+
+/* feature Photo */
+.g-presentation{
+    height: 500px;
+    border-radius: 3px;
+}
+
+@include mq(992px, 1199px) {
+    .presentation {
+        width: 800px;
+    }
+}
+
+@include mq(768px, 991px) {
+    .presentation {
+        width: 600px;
+        padding: 180px 0;
+        padding: 174px 0;
+    }
+    // gamee downlaod-2
+    .g-presentation{
+        height: 380px;
+    }
+    // game community-part
+    .join-community{
+        h2{
+            font-size: 37px;
+        }
+        a{
+            margin-top: 30px;
+        }
+    } 
+}
+
+@include mq(576px, 767px) {
+    .presentation {
+        width: 400px;
+        padding: 120px 0;
+        bottom: -150px;
+    }
+    #video-part .section-head h3 {
+        max-width: 425px;
+        line-height: 29px;
+        font-size: 20px;
+    }
+    // gamee downlaod-2
+    .g-presentation{
+        height: 300px;
+    }
+
+    // ========= Game
+    .join-community{
+        h2{
+            font-size: 32px;
+        }
+        a{
+            margin-top: 30px;
+        }
+    }
+}
+
+@include mq-max(575px) {
+    .presentation {
+        width: 280px;
+        padding: 120px 0;
+        bottom: -150px;
+    }
+    #video-part .section-head h3 {
+        max-width: 330px;
+        line-height: 26px;
+        font-size: 16px;
+    }
+    // gamee downlaod-2
+    .g-presentation{
+        height: 220px;
+    }
+     // ========= Game
+    .join-community{
+        h2{
+            font-size: 23px;
+        }
+        a{
+            font-size: 13px;
+            margin-top: 25px;
+        }
+    }
+    .community-part.section-height{
+        height: 350px;
+    }
+}

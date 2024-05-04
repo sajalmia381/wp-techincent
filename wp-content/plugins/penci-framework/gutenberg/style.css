@@ -1,0 +1,2054 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Mukta+Vaani:200,300,400,500,600,700,800&subset=gujarati,latin-ext');
+
+.wp-block {
+	max-width: 720px;
+
+}
+
+.wp-block,
+.editor-styles-wrapper, .wp-block p,
+.editor-styles-wrapper p.wp-block-paragraph,
+.editor-styles-wrapper p.block-library-list,
+.editor-styles-wrapper .mce-content-body p{
+	font-family: "Roboto", sans-serif;
+	vertical-align: baseline;
+	color: #666666;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.wp-block h1,.wp-block h2,.wp-block h3,.wp-block h4,.wp-block h5,.wp-block h6,
+.wp-block-heading h1.editor-rich-text__tinymce,
+.wp-block-heading h2.editor-rich-text__tinymce,
+.wp-block-heading h3.editor-rich-text__tinymce,
+.wp-block-heading h4.editor-rich-text__tinymce,
+.wp-block-heading h5.editor-rich-text__tinymce,
+.wp-block-heading h6.editor-rich-text__tinymce {
+	line-height: 1.3;
+	font-family: "Mukta Vaani", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	color: #111111;
+	margin-top: 0;
+	margin-bottom: 17px;
+	display: block;
+	clear: none;
+}
+
+.wp-block h1,.wp-block-heading h1{  font-size: 32px;  }
+.wp-block h2,.wp-block-heading h2{  font-size: 28px;  }
+.wp-block h3, .wp-block-heading h3{  font-size: 24px;  }
+.wp-block h4, .wp-block-heading h4{  font-size: 20px;  }
+.wp-block h5, .wp-block-heading h5{  font-size: 18px;  }
+.wp-block h6, .wp-block-heading h6{  font-size: 16px;  }
+
+.editor-styles-wrapper .wp-block ul,
+.editor-styles-wrapper .wp-block ul li {
+	list-style-type: square;
+	font-size: 14px;
+}
+
+.block-editor .wp-block-latest-posts.is-grid,
+.block-editor .wp-block-latest-posts {
+	padding: 16px 20px 16px 36px;
+	border: 1px solid #dedede;
+}
+.block-editor .wp-block-latest-posts.is-grid {
+	padding-bottom: 0 !important;
+}
+
+.wp-block-latest-posts.is-grid li{
+	padding-right: 10px;
+}
+
+.editor-rich-text__tinymce a{
+	color:#3f51b5;
+}
+.wp-block a{
+	text-decoration: none;
+	color: #3f51b5;
+}
+
+.wp-block .byline,
+.wp-block .updated:not(.published) {
+	display: none;
+}
+
+pre.wp-block-verse, .wp-block-verse pre {
+	padding: 10px 20px;
+	background: #f5f5f5;
+}
+
+p.has-drop-cap:not(:focus)::first-letter {
+	font-size: 68px;
+	margin: 0 20px 0 0;
+	padding: 0;
+	line-height: 0.9;
+	font-weight: normal;
+	float: left;
+}
+
+.editor-styles-wrapper .wp-block ol.wp-block-latest-comments {
+	padding-left: 36px;
+}
+
+.wp-block-yoast-how-to-block ul.schema-how-to-steps,
+.wp-block-yoast-how-to-block ul.schema-how-to-steps li {
+	list-style: none;
+}
+
+/** Block quote **/
+.wp-block-quote.is-style-large, .wp-block-quote.is-large {
+	background: #f5f5f5;
+	padding: 10px 20px 11px;
+}
+.editor-styles-wrapper .wp-block-quote.is-style-large .wp-block-quote__citation,
+.editor-styles-wrapper .wp-block-quote.is-large .wp-block-quote__citation {
+	text-align: right;
+}
+.editor-styles-wrapper .wp-block-quote.is-style-large p,
+.editor-styles-wrapper .wp-block-quote.is-large p {
+	font-size: 24px;
+}
+
+.wp-block-pullquote:not(.is-style-solid-color),
+.wp-block-pullquote.is-style-solid-color {
+	padding: 30px 0;
+}
+
+/** Button **/
+.wp-core-ui .wp-block .button.pencisc-button,
+.wp-block .pencisc-button{
+	border: 0;
+	border-radius: 0;
+	background: #000000;
+	color: #ffffff;
+	line-height: 36px;
+	padding: 0 15px 0;
+	text-align: center;
+	transition: all 0.25s;
+	font-size: 14px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	height: auto;
+	box-shadow: none;
+}
+.wp-core-ui .wp-block .button.pencisc-button:hover,
+.wp-block .pencisc-button:hover {
+	background: #3f51b5;
+	color: #ffffff;
+}
+.wp-core-ui .wp-block .button.pencisc-button,
+.wp-block .pencisc-button {
+	margin-bottom: 17px;
+}
+
+.wp-block .pencisc-button-margin-right {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.wp-block a.button.pencisc-button.pencisc-small {
+	line-height: 28px;
+	font-size: 12px
+}
+
+.wp-block a.button.pencisc-button.pencisc-large {
+	line-height: 46px;
+	font-size: 18px
+}
+
+.wp-block  a.button.pencisc-full,
+.wp-block  .pencisc-button.pencisc-full {
+	display: block
+}
+
+.wp-block .pencisc-button i {
+	margin-right: 5px
+}
+
+.wp-block .pencisc-button.pencisc-icon-right i {
+	margin-left: 5px;
+	margin-right: 0
+}
+
+/* Text padding */
+.wp-block .penci-tpadding-0,
+.wp-block .penci-tpadding-1,
+.wp-block .penci-tpadding-2,
+.wp-block .penci-tpadding-3,
+.wp-block .penci-tpadding-4,
+.wp-block .penci-tpadding-5,
+.wp-block .penci-tpadding-6,
+.wp-block .penci-tpadding-7{
+	display: block;
+}
+.wp-block .penci-tpadding-1 {
+	padding-left: 0;
+	padding-right: 5%;
+}
+.wp-block .penci-tpadding-2 {
+	padding-left: 5%;
+	padding-right: 0;
+}
+.wp-block .penci-tpadding-3 {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.wp-block .penci-tpadding-4 {
+	padding-left: 5%;
+	padding-right: 10%;
+}
+.wp-block .penci-tpadding-5 {
+	padding-left: 10%;
+	padding-right: 5%;
+}
+.wp-block .penci-tpadding-6 {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.wp-block .penci-tpadding-7 {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+/*--------------------------------------------------------------
+# Recipe
+--------------------------------------------------------------*/
+/* = Penci Recipe
+----------------------------------------------------*/
+.wp-block .jq-ry-container {
+	position: relative;
+	padding: 0 5px;
+	line-height: 0;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	direction: ltr;
+}
+
+.wp-block .jq-ry-container[readonly=readonly] {
+	cursor: default;
+}
+
+.wp-block .jq-ry-container > .jq-ry-group-wrapper {
+	position: relative;
+	width: 100%;
+}
+
+.wp-block .jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group {
+	position: relative;
+	line-height: 0;
+	z-index: 10;
+	white-space: nowrap;
+}
+
+.wp-block .jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group > svg {
+	display: inline-block;
+}
+
+.wp-block .jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-normal-group {
+	width: 100%;
+}
+
+.wp-block .jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-rated-group {
+	width: 0;
+	z-index: 11;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.wp-block .wrapper-penci-recipe {
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+.wp-block .wrapper-penci-recipe ul li,.wp-block  .wrapper-penci-recipe ol li {
+	margin-left: 0;
+}
+.wp-block .penci-recipe {
+	border: 1px solid #ececec;
+	padding: 18px 25px 6px;
+}
+.wp-block .penci-recipe-heading {
+	border-bottom: 1px solid #ececec;
+	margin: 0 -25px 25px -25px;
+	padding: 0 25px 20px;
+	overflow: hidden;
+}
+.wp-block .penci-recipe .penci-recipe-heading h2 {
+	font-size: 20px;
+	float: left;
+	color: #313131;
+	margin-top: 0;
+	margin-bottom: 8px;
+	display: inline-block;
+}
+.wp-block .penci-recipe-heading a.penci-recipe-print {
+	float: right;
+	font-size: 12px;
+	font-weight: 700;
+	margin-top: 4px;
+	border: 1px solid;
+	padding: 0 12px;
+	height: 28px;
+	line-height: 26px;
+	color: #3f51b5;
+	-moz-transition: 0.25s;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+
+.wp-block .penci-recipe-heading a.penci-recipe-print i {
+	margin-right: 4px;
+	font-size: 13px;
+}
+
+.wp-block .penci-recipe-heading a.penci-recipe-print:hover {
+	background: #3f51b5;
+	color: #fff;
+	border-color: #3f51b5;
+	text-decoration: none;
+}
+
+.wp-block .penci-recipe-heading .penci-recipe-meta {
+	clear: both;
+	color: #888;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.wp-block .penci-recipe-heading .penci-recipe-meta span {
+	margin-right: 15px;
+}
+
+.wp-block .penci-recipe-heading .penci-recipe-meta span.servings {
+	margin-right: 0;
+}
+
+.wp-block .penci-recipe-heading .penci-recipe-meta span time {
+	margin: 0;
+	padding: 0;
+	font-size: inherit;
+	font-weight: inherit;
+	color: inherit;
+}
+
+.wp-block .penci-recipe-heading .penci-recipe-meta span i {
+	font-size: 14px;
+	margin-right: 4px;
+	color: #aaa;
+}
+
+.wp-block .penci-recipe .penci-recipe-title {
+	font-size: 14px;
+	color: #888;
+	margin-top: 0;
+	margin-bottom: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.wp-block .penci-recipe-thumb {
+	float: left;
+	width: 80px;
+	margin-right: 20px;
+}
+
+.wp-block .penci-recipe-thumb img {
+	max-width: 100%;
+	height: auto;
+}
+
+.wp-block .penci-recipe-metades {
+	display: block;
+	overflow: hidden;
+}
+.wp-block .penci-recipe-metades h2{
+	display: inline-block;
+	margin-bottom: 0;
+}
+.editor-styles-wrapper .wrapper-penci-recipe p {
+	font-size: 14px;
+	line-height: 1.5;
+}
+.wp-block  h3.recipe-ingredient-heading {
+	margin-left: -18px;
+	margin-bottom: 10px;
+	margin-top: 19px;
+}
+
+.wp-block .wrapper-penci-recipe .penci-recipe-ingredients {
+	border-bottom: 1px solid #ececec;
+	margin: 0 -25px 25px -25px;
+	padding: 0 20px 30px;
+}
+
+.wp-block .wrapper-penci-recipe .penci-recipe-ingredients ul {
+	margin: 0;
+	padding-left: 18px;
+}
+
+.wp-block .wrapper-penci-recipe .penci-recipe-ingredients ul li {
+	padding-bottom: 6px;
+	line-height: 1.6;
+	list-style: none;
+	position: relative;
+	margin-left: 0;
+}
+
+.wp-block .wrapper-penci-recipe .penci-recipe-ingredients ul li:before {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border: 1px solid #b3b3b3;
+	display: inline-block;
+	top: 38%;
+	left: -18px;
+	transform: rotate(-13deg);
+	-webkit-transform: rotate(-13deg);
+	background: none !important;
+}
+
+.wp-block .wrapper-penci-recipe .penci-recipe-ingredients ul li:last-child {
+	margin: 0;
+	padding: 0;
+}
+
+.wp-block .wrapper-penci-recipe .penci-recipe-ingredients.penci-recipe-ingre-visual ul {
+	margin-bottom: 12px;
+	padding-left: 15px;
+}
+
+.wp-block .wrapper-penci-recipe .penci-recipe-ingredients.penci-recipe-ingre-visual ul li {
+	padding-bottom: 0;
+	margin-bottom: 7px;
+	position: relative;
+	list-style-type: square;
+	line-height: 1.7;
+	margin-left: 0;
+}
+
+.wp-block .wrapper-penci-recipe .penci-recipe-ingredients.penci-recipe-ingre-visual ul li:last-child {
+	margin: 0;
+	padding: 0;
+}
+
+.wp-block .wrapper-penci-recipe .penci-recipe-ingredients.penci-recipe-ingre-visual ul li:before {
+	content: none;
+}
+
+.wp-block .penci-recipe-notes {
+	border-top: 1px solid #ececec;
+	margin: 10px -25px 0;
+	padding: 25px 25px 10px;
+}
+
+.wp-block  .penci-recipe-notes p {
+	margin: 0;
+}
+
+.wp-block .penci-recipe-notes .penci-recipe-title {
+	margin-bottom: 8px;
+}
+
+.wp-block .wrapper-penci-recipe .penci-recipe-method ul,.wp-block  .wrapper-penci-recipe .penci-recipe-method ol {
+	padding-left: 15px;
+}
+
+.wp-block .wrapper-penci-recipe .penci-recipe-method ul li,.wp-block  .wrapper-penci-recipe .penci-recipe-method ol li {
+	margin-bottom: 5px;
+	margin-left: 0;
+}
+
+.wp-block .wrapper-penci-recipe .penci-recipe-method ul li:last-child,.wp-block  .wrapper-penci-recipe .penci-recipe-method ol li:last-child {
+	margin-bottom: 0;
+}
+
+.wp-block .penci-recipe-rating {
+	clear: both;
+	color: #888;
+	font-size: 12px;
+	line-height: 1.5;
+	margin-top: 6px;
+}
+
+.wp-block .penci_rateyo {
+	display: inline-block;
+	vertical-align: top;
+	top: 2px;
+}
+
+.wp-block .penci-hide-nutrition {
+	display: none;
+}
+
+.wp-block .penci-nutrition > .nutrition-item:after {
+	content: ',';
+	font-family: inherit;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	letter-spacing: inherit;
+	margin-right: 5px;
+}
+
+.wp-block .penci-nutrition > .nutrition-item:last-child:after {
+	content: none;
+	display: none;
+}
+
+.wp-block .nutrition-lable {
+	margin-right: 5px;
+}
+
+/* = Penci Recipe Index
+----------------------------------------------------*/
+.wp-block .penci-recipe-index-wrap .penci-col-4:nth-child(3n + 1) {
+	clear: both;
+}
+
+.wp-block .penci-recipe-index-wrap .penci-col-3:nth-child(4n + 1) {
+	clear: both;
+}
+
+.wp-block .penci-recipe-index-wrap .penci-col-6:nth-child(2n + 1) {
+	clear: both;
+}
+
+.wp-block .penci-recipe-index-wrap h4.recipe-index-heading {
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	position: relative;
+	margin-bottom: 25px;
+	line-height: 1.3;
+	color: #777;
+	overflow: hidden;
+}
+
+.wp-block .penci_dark_layout .penci-recipe-index-wrap h4.recipe-index-heading {
+	color: #fff;
+}
+
+.wp-block .penci-recipe-index-wrap h4.recipe-index-heading > span {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 15px;
+	padding-left: 0;
+	color: inherit;
+	background: none;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+.wp-block .penci-recipe-index-wrap h4.recipe-index-heading > span:before, .penci-recipe-index-wrap h4.recipe-index-heading > span:after {
+	content: "";
+	width: 2000px;
+	left: 100%;
+	position: absolute;
+	top: 50%;
+	border-top: 1px solid;
+	opacity: 0.15;
+}
+
+.wp-block .penci-recipe-index-wrap h4.recipe-index-heading > span:before {
+	left: auto;
+	right: 100%;
+}
+
+.wp-block .penci-recipe-index-wrap h4.recipe-index-heading a {
+	color: inherit;
+	background: none;
+	font-family: inherit;
+	font-size: inherit;
+	text-decoration: none;
+}
+
+.wp-block .penci-recipe-index-wrap h4.recipe-index-heading .penci-index-more-link {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 0;
+	color: inherit;
+	background: #fff;
+	font-family: inherit;
+	text-align: right;
+	position: absolute;
+	right: 0;
+	top: 3px;
+	font-weight: normal;
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+.wp-block .penci-recipe-index-wrap h4.recipe-index-heading .penci-index-more-link:hover {
+	text-decoration: underline;
+}
+
+.wp-block .penci-recipe-index-wrap .penci-recipe-index .penci-recipe-index-item {
+	margin-top: 0;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.wp-block .penci-recipe-index-wrap .penci-index-post-img {
+	margin-bottom: 17px;
+}
+
+.wp-block .penci-recipe-index-wrap .penci-recipe-index .penci-cat-links {
+	margin-bottom: 5px;
+	display: block;
+	line-height: 1;
+}
+
+.wp-block .penci-recipe-index-wrap .penci-recipe-index .penci-cat-links a {
+	display: inline-block;
+	float: none;
+	text-decoration: none;
+	vertical-align: top;
+}
+
+.wp-block .penci-recipe-index-wrap .penci-recipe-index-title {
+	margin: 0;
+	line-height: 1;
+}
+
+.wp-block .penci-recipe-index-wrap .penci-recipe-index-title a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #000000;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	line-height: 1.3;
+	font-weight: 600;
+	letter-spacing: 0;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.wp-block .penci-recipe-index-wrap .penci-recipe-index-title a:hover {
+	opacity: 0.7;
+	text-decoration: none;
+}
+
+.wp-block  .penci-recipe-index-wrap .penci-recipe-index .penci_post-meta {
+	font-size: 13px;
+}
+
+/**Cols**/
+.wp-block .row,.wp-block .penci-row {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.wp-block .row:after,.wp-block .penci-row:after {
+	content: " ";
+	display: table;
+	width: 100%;
+}
+.wp-block .penci-col-1,.wp-block .penci-col-2,.wp-block .penci-col-3,.wp-block .penci-col-4,
+.wp-block .penci-col-5,.wp-block .penci-col-6,.wp-block .penci-col-7,.wp-block .penci-col-8,
+.wp-block .penci-col-9,.wp-block .penci-col-10,.wp-block .penci-col-11,.wp-block .penci-col-12 {
+	float: left;
+	margin-bottom: 0;
+	position: relative;
+	min-height: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.wp-block .penci-col-12 {
+	width: 100%;
+}
+.wp-block .penci-col-11 {
+	width: 91.66666667%;
+}
+.wp-block .penci-col-10 {
+	width: 83.33333333%;
+}
+.wp-block .penci-col-9 {
+	width: 75%;
+}
+.wp-block .penci-col-8 {
+	width: 66.66666667%;
+}
+.wp-block .penci-col-7 {
+	width: 58.33333333%;
+}
+.wp-block .penci-col-6 {
+	width: 50%;
+}
+.wp-block .penci-col-5 {
+	width: 41.66666667%;
+}
+.wp-block .penci-col-4 {
+	width: 33.33333333%;
+}
+.wp-block .penci-col-3 {
+	width: 25%;
+}
+.wp-block .penci-col-2 {
+	width: 16.66666667%;
+}
+.wp-block .penci-col-1 {
+	width: 8.33333333%;
+}
+/*--------------------------------------------------
+# Inline related posts
+----------------------------------------------------*/
+.penci_media_object {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
+
+.penci_media_object .penci_mobj__img {
+	margin-right: 20px;
+	position: relative;
+}
+
+.penci_media_object .penci_mobj__body {
+	flex: 1;
+}
+
+.penci_media_object.penci_mobj-image-right .penci_mobj__img {
+	-webkit-box-ordinal-group: 2;
+	-webkit-order: 1;
+	-ms-flex-order: 1;
+	order: 1;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.penci-image-holder {
+	position: relative;
+	width: 100%;
+	background: #f5f5f5;
+	display: block;
+	vertical-align: top;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height: 100%;
+	transition: transform .3s ease, opacity .3s;
+	transition-timing-function: cubic-bezier(0.39, 0.76, 0.51, 0.56);
+}
+
+.penci-image-holder:before {
+	display: block;
+	content: "";
+	width: 100%;
+	padding-top: 66.6667%;
+	background: none !important;
+	box-shadow: none !important;
+}
+
+.penci-image-holder:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0;
+	z-index: 1;
+	transition: opacity 0.3s ease;
+}
+
+.penci-image-holder:not(.penci-gradient):hover:after {
+	opacity: 0.3;
+}
+
+.penci-imgtype-vertical .penci-image-holder:before {
+	padding-top: 134.375%;
+}
+
+.penci-imgtype-square .penci-image-holder:before {
+	padding-top: 100%;
+}
+
+.penci-inline-related-posts .penci_post-meta .entry-meta-item {
+	padding-left: 10px;
+	display: inline-block;
+}
+
+.penci-inline-related-posts .penci_post-meta {
+	font-size: 12px;
+	margin-top: 7px;
+}
+
+.penci-inline-related-posts .penci_post-meta .entry-meta-item:first-child {
+	padding-left: 1px;
+}
+
+.penci-inline-related-posts .penci_post-meta i {
+	margin-right: 3px;
+}
+
+.penci-inline-related-posts .penci_post-meta a,
+.penci-inline-related-posts .penci_post-meta span,
+.penci-inline-related-posts .penci_post-meta i {
+	font-size: inherit !important;
+	color: inherit !important;
+}
+
+.penci-inline-related-posts {
+	border: 1px solid #ececec;
+	overflow: hidden;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 20px 20px 0;
+}
+
+.penci-inline-related-posts ul {
+	overflow: hidden;
+}
+.wp-block .penci-inline-related-posts li {
+	position: relative;
+	line-height: 1.7;
+	margin-left: 35px;
+}
+.penci-inline-related-posts .penci-irp-heading {
+	margin-top: -7px;
+	margin-bottom: 6px;
+	font-weight: 600;
+	color: #111111;
+}
+
+.penci-inline-related-posts.penci-irp-align-none {
+	width: 100%;
+}
+
+.penci-inline-related-posts.penci-irp-align-left {
+	width: 50%;
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+.penci-inline-related-posts.penci-irp-align-right {
+	width: 50%;
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+.penci-inline-related-posts .penci-posted-on + p {
+	display: none;
+}
+
+.penci-inline-related-posts.penci-irp-type-grid ul {
+	margin-bottom: 0;
+}
+
+.penci-inline-related-posts.penci-irp-type-grid .penci-post-item {
+	list-style: none;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	line-height: 1.3;
+	margin-bottom: 0;
+}
+
+.penci-inline-related-posts.penci-irp-type-grid .penci-irp-heading {
+	margin-bottom: 10px;
+}
+
+.penci-inline-related-posts.penci-irp-type-grid.penci-irp-align-none:not(.penci-irp-one-item) .penci-post-item {
+	width: 50%;
+	float: left;
+	padding-left: 10px;
+}
+
+.penci-inline-related-posts.penci-irp-type-grid.penci-irp-align-none:not(.penci-irp-one-item) .penci-post-item:nth-child(2n + 1) {
+	padding-left: 0;
+	padding-right: 10px;
+	clear: both;
+}
+
+.penci-inline-related-posts.penci-irp-type-grid .penci__post-title-wrapper {
+	margin-top: -2px;
+}
+
+.penci-inline-related-posts.penci-irp-type-grid .penci__post-title {
+	line-height: 1.3;
+	font-size: 13px;
+	font-weight: 600;
+	color: inherit;
+	transition: all 0.3s;
+	display: block;
+	text-decoration: none;
+}
+
+.penci-inline-related-posts.penci-irp-type-grid .penci__post-title:hover {
+	color: #3f51b5;
+	text-decoration: none;
+}
+
+.penci-inline-related-posts.penci-irp-type-grid .penci__post-title + .penci_post-meta {
+	margin-top: 10px;
+	font-size: 11px;
+}
+
+.penci-inline-related-posts.penci-irp-type-grid .penci_mobj__img {
+	width: 90px;
+}
+
+.penci-inline-related-posts.penci-irp-type-grid .penci-image-holder {
+	max-width: 90px;
+	margin-right: 10px;
+}
+
+.penci-inline-related-posts.penci-irp-type-grid .penci_mobj-image-right .penci-image-holder {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+/* = Penci Review
+----------------------------------------------------*/
+.wrapper-penci-review {
+	margin-bottom: 25px;
+	margin-top: 20px;
+	border: 1px solid #ececec;
+}
+
+.penci-review-container {
+	padding: 20px;
+	overflow: hidden;
+}
+
+.penci-review-container.penci-review-count {
+	border-bottom: 1px solid #ececec;
+}
+
+.penci-review-container.penci-review-count h4 {
+	font-size: 22px;
+	margin: -3px 0 0 0;
+}
+
+.penci-review-count + .penci-usewr-review {
+	border-top: 0;
+}
+
+.penci-review-schemas,
+.penci-review-desc {
+	margin-top: 13px;
+}
+
+.penci-userreview-badge {
+	background: #e65a29;
+	display: inline-block;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 4px 6px 3px;
+	line-height: 11px;
+	border-radius: 2px;
+}
+
+.post-entry .penci-review-desc p {
+	margin: 0;
+}
+
+.wrapper-penci-review .penci-review ul.penci-review-number {
+	padding: 0;
+	margin: 15px 0 0 0;
+	clear: both;
+}
+
+.wrapper-penci-review .penci-review ul.penci-review-number li {
+	list-style: none;
+	margin-bottom: 18px;
+	margin-left: 0;
+}
+
+.wrapper-penci-review .penci-review ul.penci-review-number li:last-child {
+	margin-bottom: 0;
+}
+
+.wrapper-penci-review .penci-review ul.penci-review-number li:before, .wrapper-penci-review .penci-review ul.penci-review-number li:after {
+	content: '';
+	display: table;
+}
+
+.penci-review-style_3 .wrapper-penci-review .penci-review ul.penci-review-number {
+	margin-bottom: 10px;
+}
+
+ul.penci-review-number li .penci-review-text:before, ul.penci-review-number li .penci-review-text:after {
+	content: '';
+	display: table;
+}
+
+.penci-review-row:before, .penci-review-row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.penci-review-point {
+	font-size: 13px;
+}
+
+.penci-review-point:before, .penci-review-point:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.penci-userreview-author,
+.penci-review-text {
+	font-weight: 700;
+	color: #111111;
+}
+
+.penci-review-point {
+	font-size: inherit;
+	display: inline-block;
+}
+
+.penci-review-container.penci-review-point {
+	display: block;
+}
+
+.penci-usewr-review {
+	border-top: 1px solid #ececec;
+}
+
+.penci-review-score {
+	float: right;
+	font-size: inherit;
+	top: 5px;
+	position: relative;
+}
+
+.penci-review-score .fa {
+	font-size: 14px;
+	margin-right: 3px;
+}
+
+.penci-review-score .fa:last-child {
+	margin-right: 0;
+}
+
+.penci-review-process {
+	display: block;
+	height: 13px;
+	background-color: #e6e6e6;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.penci-review-process span {
+	display: block !important;
+	height: 100%;
+	width: 0;
+	background-color: #3f51b5;
+}
+
+.penci-review-row {
+	display: block;
+	margin-left: -12px;
+	margin-right: -12px;
+	vertical-align: top;
+}
+
+.penci-review-stuff {
+	float: left;
+	display: inline-block;
+	width: 66.666%;
+	padding: 0 12px;
+}
+
+.penci-review-average {
+	float: left;
+	display: inline-block;
+	padding: 0 12px;
+	width: 33.333%;
+}
+
+.penci-review-average.full-w {
+	width: 100%;
+	margin: 0 !important;
+}
+
+.penci-review-average .penci-review-process {
+	height: 3px;
+	width: 70%;
+	margin: 20px auto 10px;
+	background: rgba(255, 254, 254, 0.26);
+}
+
+.penci-review-average .penci-review-process span.penci-process-run {
+	height: inherit;
+	background-color: #fff;
+}
+
+.penci-review-stuff .penci-review-good {
+	width: 50%;
+	float: left;
+	display: inline-block;
+	padding: 0 12px;
+}
+
+.penci-review-stuff .penci-review-row.full-w .penci-review-good {
+	width: 100%;
+}
+
+.penci-review-stuff .penci-review-good h5 {
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.penci-review .penci-review-good ul {
+	padding: 0 0 0 0;
+	margin: 0;
+}
+
+.penci-review .penci-review-good ul li {
+	list-style: none;
+	padding-left: 18px;
+	margin-bottom: 7px;
+	margin-left: 0;
+	font-size: 14px;
+	position: relative;
+}
+
+.penci-review .penci-review-good ul li:last-child {
+	margin-bottom: 0;
+}
+
+.penci-review .penci-review-good ul li:before {
+	content: "\f058";
+	color: #22b162;
+	position: absolute;
+	left: 0;
+	top: 5px;
+	font-family: FontAwesome;
+	font-size: 14px;
+	line-height: 1;
+	background: none !important;
+}
+
+.penci-review .penci-review-bad ul li:before {
+	content: "\f056";
+	color: #e03030;
+}
+
+.penci-review-score-total {
+	background: #3f51b5;
+	color: #fff;
+	text-align: center;
+	padding: 22px 10px 18px;
+	display: block;
+	width: 100%;
+}
+
+.penci-review-score-total.only-score {
+	padding: 30px 10px;
+}
+
+.penci-review-style_3 .penci-review-score-total {
+	padding: 16px 10px 13px;
+}
+
+.penci-review-style_3 .penci-review-score-total.only-score {
+	padding: 30px 10px;
+}
+
+.penci-review-score-num {
+	font-size: 48px;
+	font-family: "Oswald", sans-serif;
+	line-height: 1;
+	font-weight: 400;
+}
+
+.penci-review-style_3 .penci-review-score-num {
+	font-size: 36px;
+}
+
+.penci-review-score-num-star {
+	font-size: 16px;
+	padding-top: 8px;
+	padding-bottom: 2px;
+	line-height: 1;
+}
+
+.penci-review-score-num-star i {
+	margin-right: 3px;
+}
+
+.penci-review-score-num-star i:last-of-type {
+	margin-right: 0;
+}
+
+.penci-review-score-total span {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.penci-piechart {
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	position: absolute;
+	display: inline-block;
+	vertical-align: top;
+	left: 10px;
+	top: 10px;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	z-index: 15;
+}
+
+.penci-piechart canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.penci-piechart.penci-piechart-small {
+	width: 34px;
+	height: 34px;
+}
+
+.penci-piechart.penci-piechart-big {
+	width: 60px;
+	height: 60px;
+}
+
+.penci-block-vc .penci-piechart {
+	right: 10px;
+	left: auto;
+}
+
+.penci-block-vc .icon_pos_right + .penci-piechart {
+	right: 56px;
+}
+
+.penci-block-vc .icon_pos_right.lager-size-icon + .penci-piechart {
+	right: 62px;
+}
+
+.penci-block-vc .icon_pos_right.medium-size-icon + .penci-piechart {
+	right: 54px;
+}
+
+.penci-block-vc .icon_pos_right.small-size-icon + .penci-piechart {
+	right: 50px;
+}
+
+.penci-chart-text {
+	width: 40px;
+	height: 40px;
+	font-size: 14px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	line-height: 40px;
+	font-family: "Mukta Vaani", sans-serif;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.penci-piechart-small .penci-chart-text {
+	width: 34px;
+	height: 34px;
+	font-size: 12px;
+	line-height: 34px;
+}
+
+.penci-piechart-big .penci-chart-text {
+	width: 60px;
+	height: 60px;
+	font-size: 24px;
+	line-height: 60px;
+}
+
+.penci-hide-text-votes {
+	display: none;
+}
+
+#respond p.comment-form-comment + p.comment-form-url {
+	width: 100%;
+	margin: 0;
+}
+
+#respond p.comment-form-comment + p.comment-form-url input {
+	max-width: 100%;
+}
+
+.penci-scores-rateYo li {
+	list-style: none;
+	width: 32%;
+	margin: 0 2% 19px 0;
+	padding: 0;
+	float: left;
+	line-height: 1.5;
+	display: inline-block;
+}
+
+.penci-scores-rateYo li:nth-child(3n + 3) {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.penci-scores-rateYo li:nth-child(3n + 1) {
+	clear: both;
+}
+
+.penci-scores-rateYo .penci-review-title-criteria,
+.penci-scores-rateYo .penci-review-star-criteria {
+	vertical-align: top;
+}
+
+.penci-scores-rateYo .penci-reivew-star-rateYo {
+	padding-left: 0;
+}
+
+.penci-preview-rating {
+	position: relative;
+	float: left;
+	margin-right: 8px;
+	font-size: 13px;
+	text-indent: 0;
+	letter-spacing: 2px;
+	white-space: nowrap;
+	word-wrap: normal;
+	z-index: 15;
+}
+
+.penci-preview-rating-absolute {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.penci-block-vc .penci-preview-rating-absolute {
+	right: 10px;
+	left: auto;
+}
+
+.penci-preview-rating .penci-prvrate-bg {
+	color: #b9b9b9;
+}
+
+.penci-preview-rating .penci-prvrate-bg:before {
+	content: "\f006" "\f006" "\f006" "\f006" "\f006";
+	font-family: "FontAwesome";
+	display: block;
+}
+
+.penci-prvrate-active {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	overflow: hidden;
+	color: #FFCA00;
+}
+
+.penci-prvrate-active-inner {
+	text-align: left;
+}
+
+.penci-prvrate-active-inner:before {
+	content: "\f005" "\f005" "\f005" "\f005" "\f005";
+	font-family: "FontAwesome";
+	display: block;
+}
+
+.penci-mul-comments-wrapper .penci-usewr-review {
+	border-top: 0;
+}
+
+.penci-post-reviews .post-comments .post-title-box {
+	border-top: 0;
+}
+
+.penci-review-container .post-comments .post-title-box {
+	border-top: 0;
+	padding-top: 0;
+}
+
+.penci-review-spinner {
+	font-size: 20px;
+	display: none;
+	vertical-align: top;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #3f51b5;
+}
+
+.penci-review-spinner.active {
+	display: inline-block;
+}
+
+.penci-ur-like-dislike .penci-review-spinner {
+	line-height: 24px;
+}
+
+.penci-user-review .thecomment {
+	margin-bottom: 30px;
+}
+
+.penci-user-review ul.penci-user-review-criteria {
+	margin-bottom: 0;
+}
+
+.penci-user-review ul.penci-user-review-criteria li {
+	list-style: none;
+	margin-bottom: 5px;
+	margin-left: 0;
+}
+
+.penci-user-review ul.penci-user-review-criteria li:last-child {
+	margin-bottom: 10px;
+}
+
+.penci-user-reviews .penci-user-review:last-child .thecomment {
+	margin-bottom: 0;
+}
+
+.penci-review-thumb {
+	float: left;
+	width: 120px;
+	margin-right: 20px;
+}
+
+.penci-user-review-criteria {
+	margin-top: 15px;
+}
+
+.penci-user-review-criteria .penci-review-star-criteria {
+	float: right;
+	text-align: right;
+	position: relative;
+	top: 3px;
+}
+
+.penci-user-review-criteria .penci-preview-rating {
+	font-size: 15px;
+	position: relative;
+	top: -2px;
+}
+
+.penci-userreview-comment + .penci-user-review-criteria {
+	margin-top: 0;
+}
+
+.penci-review-mess {
+	display: none;
+	margin-top: 20px;
+	border: 2px solid #398f14;
+	padding: 3px 10px;
+}
+
+.penci-review-mess.error {
+	border-color: #f7e700;
+}
+
+.penci-user-review-action {
+	margin-top: 14px;
+	overflow: hidden;
+}
+
+.penci-u-review-sharing {
+	float: left;
+}
+
+.penci-ur-like-dislike {
+	float: right;
+	text-align: right;
+}
+
+.penci-ur-like-dislike .penci-share-number {
+	margin-left: 7px;
+}
+
+.penci-ur-like-dislike .penci-ur-like {
+	background: #3f51b5;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.penci-ur-like-dislike .penci-review-judge-mess {
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.penci-ur-like-dislike .penci-ur-dislike {
+	background: #f44133;
+	color: #fff;
+}
+
+.penci-ur-like-dislike a {
+	line-height: 24px;
+	padding: 0 12px;
+	transition: all 0.3s;
+	display: inline-block;
+	border-radius: 2px;
+}
+
+.penci-ur-like-dislike a:hover {
+	opacity: 0.8;
+}
+
+.penci-u-review-sharing .penci-ur-social {
+	font-size: 14px;
+	color: #313131;
+	margin-right: 10px;
+	line-height: 24px;
+}
+
+.penci-u-review-sharing .penci-ur-social:hover {
+	color: #3f51b5;
+}
+
+.penci-userreview-numeric-score {
+	margin-top: 10px;
+}
+
+.penci-userreview-numeric-score span {
+	display: inline-block;
+	font-size: 28px;
+	line-height: 1em;
+}
+
+.penci-userreview-numeric-score i {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 1em;
+	font-style: normal;
+}
+
+/** shortcode **/
+.penci-recent-rv {
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ececec;
+}
+
+.penci-recent-rv:last-child {
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+
+.penci-recent-rv-header:before, .penci-recent-rv-header:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.penci-recent-rv-score.penci-review-score {
+	float: left;
+	top: 5px;
+}
+
+.penci-recent-rv-score.penci-review-score .jq-ry-container {
+	padding-left: 0;
+}
+
+.penci-recent-rv-author h5 {
+	font-size: 18px;
+	margin: -3px 0 3px;
+	font-weight: 600;
+	color: #111111;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.penci-recent-rv-img {
+	float: left;
+	width: 80px;
+	margin-right: 20px;
+}
+
+.penci-recent-rv-title,
+.penci-recent-rv-excrept {
+	clear: both;
+}
+
+.penci-recent-rv-title {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.3;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.penci-recent-rv-excrept {
+	font-size: 14px;
+	line-height: 1.71;
+	margin-bottom: 3px;
+	margin-top: 8px;
+}
+
+.penci-review-metas {
+	overflow: hidden;
+}
+
+.penci-review-metas .penci-review-meta {
+	width: 50%;
+	float: left;
+	line-height: 1.4;
+	margin-top: 5px;
+}
+
+.penci-review-metas .penci-review-meta:nth-child(2n+1) {
+	clear: both;
+}
+
+.penci-review-metas .penci-review-meta strong {
+	font-weight: bold;
+	color: #111;
+}
+
+.penci-review-metas a.penci-review-btnbuy.button {
+	clear: both;
+	float: left;
+	margin-top: 10px;
+	line-height: 28px;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.penci-review-metas a.penci-review-btnbuy.button:hover {
+	text-decoration: none;
+}
+
+.penci-review-schemas .penci-review-schema {
+	line-height: 1.4;
+	margin-top: 5px;
+}
+
+.penci-review-schemas .penci-review-schema strong {
+	font-weight: bold;
+	color: #111;
+}
+
+.penci-review-metas .penci-review-meta i {
+	margin-right: 5px;
+	color: #111111;
+}
+
+.penci-userreview-metas {
+	margin-top: 5px;
+}
+
+.penci-userreview-metas span {
+	margin-right: 10px;
+	font-size: 13px;
+}
+
+.penci-userreview-metas span:last-child {
+	margin-right: 0;
+}
+
+.penci-userreview-metas span strong {
+	font-weight: bold;
+}
+
+.penci-userreview-metas span i {
+	margin-right: 5px;
+}
+
+.penci-userreview-metas span i.fa-star {
+	color: #FFCA00;
+}
+
+.penci-userreview-metas span i.dashicons-awards {
+	color: #e65a29;
+	font-size: 16px;
+	transform: translateY(3px);
+	-webkit-transform: translateY(3px);
+	height: auto;
+}
+
+.penci-userreview-metas span i.fa-thumbs-o-up {
+	color: #3f51b5;
+}
+
+.penci-review-point > .penci-review-row {
+	display: flex;
+}
+
+.penci-review-average {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/** Blockquote **/
+.wp-block blockquote:not( .wp-block-quote ), q {
+	font-size: 24px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 1.25;
+	text-align: center;
+	color: #3f51b5;
+	padding-top: 27px;
+	padding-bottom: 27px;
+	position: relative;
+	margin-top: 26px;
+	margin-bottom: 33px;
+	text-transform: uppercase;
+}
+
+.wp-block blockquote:not( .wp-block-quote ) .author, q .author {
+	font-style: normal;
+	color: #888888;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.wp-block blockquote:not( .wp-block-quote ) p, q p {
+	margin-bottom: 0;
+}
+
+.wp-block blockquote:not( .wp-block-quote ):before, q:before {
+	content: '';
+	top: 0;
+	left: 50%;
+	position: absolute;
+	width: 150px;
+	height: 2px;
+	background-color: #ececec;
+	margin-left: -75px;
+}
+
+.wp-block blockquote:not( .wp-block-quote ):after, q:after {
+	content: '';
+	bottom: 0;
+	left: 50%;
+	position: absolute;
+	width: 150px;
+	height: 2px;
+	background-color: #ececec;
+	margin-left: -75px;
+}
+
+.wp-block blockquote:not( .wp-block-quote ) {
+	clear: both;
+}
+
+.wp-block blockquote:not( .wp-block-quote ).alignleft,
+.wp-block blockquote:not( .wp-block-quote ).alignright {
+	width: 100%;
+	clear: none;
+	max-width: 400px;
+}
+
+.wp-block blockquote:not( .wp-block-quote ).alignleft,
+.wp-block blockquote.style-2.alignleft,
+.wp-block blockquote.style-3.alignleft {
+	margin: 10px 20px 20px 0;
+}
+
+.wp-block blockquote:not( .wp-block-quote ).alignright,
+.wp-block blockquote.style-2.alignright,
+.wp-block blockquote.style-3.alignright {
+	margin: 10px 0 20px 20px;
+}
+
+.wp-block blockquote.style-2 {
+	position: relative;
+	padding: 0 0 0 46px;
+	border: none !important;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+	font-weight: normal;
+	text-transform: none;
+}
+
+.wp-block blockquote.style-2:before {
+	color: #3f51b5;
+	content: '“';
+	font-family: "Mukta Vaani", sans-serif;
+	font-size: 64px;
+	font-weight: 900;
+	line-height: 1;
+	font-style: normal;
+	position: absolute;
+	top: 1px;
+	left: 0;
+	width: auto;
+	height: auto;
+	background-color: transparent;
+	margin-left: 0;
+}
+
+.wp-block blockquote.style-2:after {
+	content: none;
+}
+
+.wp-block blockquote.style-2,
+.wp-block blockquote.style-2 p {
+	font-size: 16px;
+	color: #888;
+	font-style: italic;
+	line-height: 1.7;
+	text-align: left;
+}
+
+.wp-block blockquote.style-2 p {
+	margin-bottom: 0;
+}
+
+.wp-block blockquote.style-2 cite,
+.wp-block blockquote.style-2 .author {
+	display: block;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 7px;
+	margin-bottom: 0;
+	color: #3f51b5;
+	font-style: normal;
+	font-weight: bold;
+	overflow: hidden;
+	text-align: left;
+	position: relative;
+	z-index: 1;
+}
+
+.wp-block blockquote.style-2 .author span {
+	position: relative;
+	display: inline-block;
+	padding: 0 10px 0 0;
+}
+
+.wp-block blockquote.style-2 .author span:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	width: 90px;
+	height: 0;
+	border-top: 1px solid;
+	left: 100%;
+	opacity: 0.5;
+}
+
+.wp-block blockquote.style-2.align-right {
+	max-width: 460px;
+	float: right;
+	width: 100%;
+	margin-left: 20px;
+}
+
+.wp-block blockquote.style-3,
+.wp-block blockquote.style-3 p {
+	font-size: 16px;
+	color: #888;
+	font-style: normal;
+	line-height: 1.7;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.wp-block blockquote.style-3 {
+	position: relative;
+	padding: 13px 15px 0 24px;
+	background-color: #f5f5f5;
+	border: none !important;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+	font-weight: normal;
+	text-transform: none;
+}
+
+.wp-block blockquote.style-3:before {
+	content: '';
+	background-color: #3f51b5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 4px;
+	height: 100%;
+	margin-left: 0;
+}
+
+.wp-block blockquote.style-3:after {
+	content: none;
+}
+
+.wp-block blockquote.style-3 cite,
+.wp-block blockquote.style-3 .author {
+	display: block;
+	font-size: 12px;
+	margin-bottom: 14px;
+	text-transform: uppercase;
+	margin-top: 7px;
+	color: #3f51b5;
+	font-style: normal;
+	font-weight: bold;
+	overflow: hidden;
+	text-align: left;
+	position: relative;
+	z-index: 1;
+}
+
+.wp-block blockquote.style-3 .author span {
+	position: relative;
+	display: inline-block;
+	padding: 0 10px 0 0;
+}
+
+.wp-block blockquote.style-3 .author span:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	width: 90px;
+	height: 1px;
+	border-top: 1px solid;
+	left: 100%;
+	opacity: 0.5;
+}
+
+.wp-block .wp-block-pullquote blockquote{
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	text-align: inherit;
+	color: inherit;
+	padding: 0;
+	position: inherit;
+	margin: 1em;
+	text-transform: inherit;
+}
+.wp-block .wp-block-pullquote blockquote:before,
+.wp-block .wp-block-pullquote blockquote:after{
+	content: none !important;
+}
+
+.penci-gutenberg-missing {
+	font-size: 13px;
+	font-weight: normal;
+	text-align: left;
+	padding: 20px;
+	outline: 2px dashed #d4d4d4;
+	color: #131313;
+	font-family: Verdana, Geneva, sans-serif;
+	cursor: pointer;
+}
+
+.penci-gutenberg-missing span {
+	font-size: 11px;
+	position: relative;
+	margin-right: 10px;
+	background-color: red;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+
+.wp-block .wp-block-latest-posts.is-grid li{
+	padding-right: 10px;
+}
+
+#penci-gutenberg-format  #vp-post-formats-ui-tabs{
+	display: block !important;
+	margin-bottom: 15px;
+}
+#penci-gutenberg-format  .vp-pfui-elm-block label{
+	margin-left: 0;
+	margin-bottom: 5px;
+	text-transform: none;
+}
+
+#penci-gutenberg-format  .vp-pfui-elm-block .vp-pfui-elm-container {
+	background: transparent;
+	padding: 0;
+	border: 0
+}
+
+#penci-gutenberg-format .vp-pfui-gallery-picker .gallery > span {
+	width: 62px;
+	height: 62px;
+	padding: 4px;
+	margin: 2px;
+	border: solid 1px #dedede;
+}
+
+#penci-gutenberg-format .vp-pfui-nav ul {
+	margin: 0;
+}
+
+#penci-gutenberg-format .vp-pfui-nav ul li a{
+	margin-bottom: 5px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	transition: all 0.3s;
+	background: #f7f7f7;
+	box-shadow: inset 0 -1px 0 #ccc;
+	color: #555;
+	vertical-align: top;
+}
+
+#penci-gutenberg-format .vp-pfui-nav ul li a.current,
+#penci-gutenberg-format .vp-pfui-nav ul li a:hover {
+	background: #0085ba;
+	border-color: #006a95 #00648c #00648c;
+	box-shadow: inset 0 -1px 0 #00648c;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px #005d82, 1px 0 1px #005d82, 0 1px 1px #005d82, -1px 0 1px #005d82;
+}
+
+.wp-block-embed__wrapper iframe{
+	width: 100% !important;
+}
+.wp-block  .wc-product-preview__title {
+	font-size: 18px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: #313131;
+	letter-spacing: 0;
+	line-height: 1.3;
+	font-family: "Mukta Vaani", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+}
+.wp-block  .wc-product-preview__add-to-cart{
+	border-radius:0;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 15px;
+	display: block;
+	font-family: "Roboto", sans-serif;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0;
+	height: 36px;
+	line-height: 36px;
+	border: 0;
+}
+.wp-block .woocommerce-Price-amount {
+	margin: 2px 0 0;
+	text-align: center;
+	font-size: 16px;
+	color: #3f51b5;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+body:not(.block-editor-page) #penci-gutenberg-format {
+	display: none;
+}

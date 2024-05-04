@@ -1,0 +1,43 @@
+/*  Colors */
+.white-color{
+	color: $white;
+}
+.dark-color{
+	color: $dark;
+}
+.main-color{
+	color: $main-color;
+}
+.second-color{
+	color: $second-color;
+}
+.bg-main-color{
+	background: $main-color;
+}
+.bg-second-color{
+	background: $second-color;
+}
+.bg-gradient{
+	background: $gradient;
+}
+
+.bg-black{
+	background: #282d4b;
+}
+body.bg-black{
+	color: #ffffff;
+}
+
+/*  Font Weight */
+.font-400{
+	font-weight: 400!important;
+}
+
+.font-500{
+	font-weight: 500!important;
+}
+
+/* Font-size */
+.font-40{
+	font-size: 40px;
+}

@@ -1,0 +1,121 @@
+.jq-ry-container{position:relative;padding:0 5px;line-height:0;display:block;cursor:pointer;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;direction:ltr}.jq-ry-container[readonly=readonly]{cursor:default}.jq-ry-container>.jq-ry-group-wrapper{position:relative;width:100%}.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group{position:relative;line-height:0;z-index:10;white-space:nowrap}.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group>svg{display:inline-block}.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group.jq-ry-normal-group{width:100%}.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group.jq-ry-rated-group{width:0;z-index:11;position:absolute;top:0;left:0;overflow:hidden}
+
+/**
+ * Admin style for this plugin
+ */
+#penci_review_meta{
+	overflow: hidden;
+	padding-bottom: 1em;
+}
+#penci_review_meta p, .penci-row-editor{
+	clear: both;
+	padding-bottom:1em;
+}
+#penci_review_meta p.review-odd {
+	border-bottom: none;
+	padding: 0;
+	margin: 0;
+}
+.penci-format-row{
+	display: block;
+	float: left;
+	width: 200px;
+	line-height:30px;
+	font-weight:700;
+}
+
+ul.penci-scores-rateYo li {
+	overflow: hidden;
+}
+
+.penci-format-row + .penci-review-star-criteria{
+	float: left;
+	padding-top: 3px;
+}
+
+.penci-format-row2{
+	width: 400px;
+}
+
+.penci-format-row.row-block{
+	float: none;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.penci-table-meta label{
+	display: block;
+	line-height: 1.75em;
+}
+.penci-review-description {
+	display:block;
+	font-size:11px;
+	color:#888;
+	margin-top:8px;
+}
+.penci-table-meta {
+	border: 1px solid #efefef;
+	padding: 5px 18px;
+	margin: 20px 7px;
+}
+.penci-table-meta h3 {
+	font-size:14px;
+}
+.penci-review-shortcode {
+	font-size: 14px;
+	background: #ffffbd;
+	color: #000;
+	padding: 2px 6px;
+	font-weight: 700;
+}
+
+.penci-review_schema_fields,
+.penci-review-item {
+	clear: both;
+	padding: 8px 15px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 0 5px;
+	list-style: none;
+	background: #FAFAFA;
+	border: 1px solid #dedede;
+}
+.penci-review-item {
+	cursor: move;
+}
+
+.penci-btn-remove-review .dashicons {
+	position: relative;
+	top: 2px;
+}
+.penci-btn-remove-review {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.penci-review-item .clearfix {
+	height: 5px;
+}
+
+#penci_review_meta .penci-grid-2 {
+	overflow: hidden;
+}
+
+#penci_review_meta .penci-grid-2 > p,
+#penci_review_meta .penci-review_schema_fields .col-6 {
+	width: 50%;
+	border-bottom: 0;
+	float: left;
+	clear: none;
+	padding-right: 2%;
+	box-sizing: border-box;
+}
+
+#penci_review_meta .penci-review_schema_fields select,
+#penci_review_meta .penci-review_schema_fields input {
+	width: 100%;
+	clear: both;
+	padding: 2px 10px;
+	line-height: 28px;
+	height: 28px;
+}

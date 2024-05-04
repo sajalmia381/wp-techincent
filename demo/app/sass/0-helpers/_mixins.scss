@@ -1,0 +1,72 @@
+// img Over lay bg-color
+@mixin overlay($color) {
+    position: relative;
+    &::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: $color;
+    }
+    .container{
+        position: relative;
+        z-index: 10;
+        height: 100%;
+    }
+}
+
+@mixin overlay-opacity($color, $value) {
+    position: relative;
+    &::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: $color;
+        opacity: $value;
+    }
+    .container{
+        position: relative;
+        z-index: 10
+    }
+}
+
+// Transition
+@mixin transition($value) {
+    transition: $value;
+    -webkit-transition: $value;
+    -moz-transition: $value;
+    -o-transition: $value;
+}
+
+// Box Shadows
+@mixin box-shadow($value) {
+    box-shadow: $value;
+    -webkit-box-shadow: $value;
+    -moz-box-shadow: $value;
+    -o-box-shadow: $value;
+}
+
+// Media Query
+@mixin mq($min, $max) {
+    @media (min-width: $min) and (max-width: $max) {
+        @content;
+    }
+}
+
+@mixin mq-min($only-min) {
+    @media only screen and (min-width: $only-min) {
+        @content;
+    }
+}
+
+@mixin mq-max($only-max) {
+    @media only screen and (max-width: $only-max) {
+        @content;
+    }
+
+}

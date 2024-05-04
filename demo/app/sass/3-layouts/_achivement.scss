@@ -1,0 +1,46 @@
+#achivement-part {
+    padding-top: 73px;
+    padding-bottom: 73px;
+}
+.achiv-item {
+    color: $white;
+    text-align: center;
+    i {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        background: $white;
+        color: $main-color;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 20px;
+        margin: 15px 0
+    }
+}
+@include mq-max(991px){
+    .achiv-item{
+        h2{
+            font-size: 32px;
+        }
+        i{
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+        }
+        h4 {
+            font-size: 17px;
+        }
+    }
+}
+@include mq-max(767px) {
+    #achivement-part {
+        // padding-top: 195px;
+    }
+}
+@include mq-max(575px) {
+    #achivement-part {
+        // padding-top: 195px;
+    }
+}
+

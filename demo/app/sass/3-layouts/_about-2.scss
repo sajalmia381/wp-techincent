@@ -1,0 +1,42 @@
+.mobile-shot{
+	margin: auto;
+	position: relative;
+	width: 600px;
+	img{
+		width: 100%;
+	}
+}
+
+.screenshot-A{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 477px!important;
+	img{
+		width: 100%;
+	}
+	.owl-prev,
+    .owl-next{
+    	position: absolute;
+    	top: 50%;
+    	transform: translateY(-50%);
+		i {
+		    font-size: 70px;
+		    color: #fff;
+		    @include transition($trans-3);
+		    opacity: .4;
+    	}
+    	&:hover{
+    		i{
+    			opacity: 1;
+    		}
+    	}
+    }
+    .owl-prev{
+    	left: 0;
+    }
+    .owl-next{
+    	right: 0;
+    }
+}
